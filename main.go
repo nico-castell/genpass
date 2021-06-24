@@ -42,5 +42,12 @@ func main() {
 		bSecNumber.Add(bSecNumber, big.NewInt(minASCII))
 		pass += string(byte(bSecNumber.Abs(bSecNumber).Uint64()))
 	}
-	fmt.Println(pass)
+
+	// Print trailing new-line only if output is a terminal
+	fileInfo, _ := os.Stdout.Stat()
+	if (fileInfo.Mode() & os.ModeCharDevice) != 0 {
+		fmt.Printf("%v\n", pass)
+	} else {
+		fmt.Printf("%v", pass)
+	}
 }
