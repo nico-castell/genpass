@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/nico-castell/genpass?label=Release&color=informational&logo=GitHub&logoColor=white&style=flat-square)](https://github.com/nico-castell/genpass/releases)
 [![License](https://img.shields.io/github/license/nico-castell/genpass?label=License&color=informational&logo=Open%20Source%20Initiative&logoColor=white&style=flat-square)](LICENSE)
 [![Lines of code](https://img.shields.io/tokei/lines/github/nico-castell/genpass?label=Lines%20of%20code&color=informational&logo=Go&logoColor=white&style=flat-square)](https://github.com/nico-castell/genpass)
-[![CodeQL](https://img.shields.io/github/workflow/status/nico-castell/genpass/CodeQL?label=CodeQL&color=informational&logo=GitHub%20Actions&logoColor=white&style=flat-square)](https://github.com/nico-castell/genpass/actions/workflows/codeql-analysis.yml)
+[![CodeQL](https://img.shields.io/github/workflow/status/nico-castell/genpass/CodeQL?label=CodeQL&logo=GitHub%20Actions&logoColor=white&style=flat-square)](https://github.com/nico-castell/genpass/actions/workflows/codeql-analysis.yml)
 
 This is a cryptographically secure password generator for the command line, built using [***Golang***](https://golang.org/).
 
@@ -29,7 +29,7 @@ go get github.com/nico-castell/genpass
 Alternatively, you can clone the repository and install it from there:
 ```shell
 git clone https://github.com/nico-castell/genpass.git  && \
-    cd go-binme                                        && \
+    cd genpass                                         && \
     go install .
 ```
 
