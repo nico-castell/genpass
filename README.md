@@ -19,6 +19,10 @@ Usage:
     ```shell
     MY_PASS=$(genpass 12)
     ```
+- **Clipboard:** You can also put the password in your clipboard using the `xclip` command (at least on linux 🐧).
+    ```shell
+    xclip -selection clipboard -i < <(genpass 12)
+    ```
 
 ---
 To get the program run the following command:
